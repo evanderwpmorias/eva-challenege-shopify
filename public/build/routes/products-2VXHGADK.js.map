@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["browser-route-module:routes/products.tsx?browser", "../../../app/routes/products.tsx"],
-  "sourcesContent": ["export { default, meta } from \"./routes/products.tsx\";", "import type { V2_MetaFunction } from \"@remix-run/node\";\nimport {\n  Outlet\n} from \"@remix-run/react\";\n\nexport const meta: V2_MetaFunction = () => {\n  return [\n    { title: \"Products Index\" },\n    { name: \"description\", content: \"Welcome to Remix!\" },\n  ];\n};\n\nexport default function Index() {\n  return (\n    <Outlet />\n  );\n}\n"],
-  "mappings": ";;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;;;ACAA;AAAA;AAAA;AAAA;AAAA;AAcI;AATG,IAAM,OAAwB,MAAM;AACzC,SAAO;AAAA,IACL,EAAE,OAAO,iBAAiB;AAAA,IAC1B,EAAE,MAAM,eAAe,SAAS,oBAAoB;AAAA,EACtD;AACF;AAEe,SAAR,QAAyB;AAC9B,SACE,mDAAC,YAAD;AAAA;AAAA;AAAA;AAAA,SAAQ;AAEZ;",
-  "names": []
-}
