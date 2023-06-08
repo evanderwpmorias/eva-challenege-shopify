@@ -1,0 +1,15 @@
+html {
+    font-family: 'Noto Sans', sans-serif;
+}
+.bg-eva-green {
+    background-color: #4f857c;
+}
+.text-evagreen {
+    color: #4f857c;
+}
+.bg-cream {
+    background: #FBF8f1;
+}
+.slide {
+    background-size: cover;
+}
