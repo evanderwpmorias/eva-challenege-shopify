@@ -30,19 +30,6 @@ export default function Index() {
   return (
     <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.8" }}>
       <div className="home-page" dangerouslySetInnerHTML={{ __html: page.body }} />
-      <div>
-       <h1>Featured Products</h1>
-       <ul>
-         {products?.map((product: any) => (
-           <li key={product.node.id}>
-             <h2>{product.node.title}</h2>
-             <Link to={`/products/${product.node.handle}`} className=" bg-black text-white
-              rounded-sm px-4 py-2">View Product</Link>
-             <p>Price: {product.node.priceRange.minVariantPrice.amount} {product.node.priceRange.minVariantPrice.currencyCode}</p>
-           </li>
-         ))}
-       </ul>
-     </div>
     </div>
   );
 }
